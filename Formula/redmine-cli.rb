@@ -1,30 +1,30 @@
 class RedmineCli < Formula
   desc "Redmine CLI generated from the Redmine OpenAPI specification"
   homepage "https://github.com/muxx/redmine-cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/muxx/redmine-cli/releases/download/v0.1.0/redmine_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "2f721d91da16ddeff1630990610a74aa8b17fd46f9f16e0f3db25e974fd82099"
+      url "https://github.com/muxx/redmine-cli/releases/download/v0.2.0/redmine_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "37977d199d4dc19885d2aa56bae4eb49bf541a9a4f7016d790db0826d2111d1b"
     end
 
     on_intel do
-      url "https://github.com/muxx/redmine-cli/releases/download/v0.1.0/redmine_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "b3eba217b1b4af023cc198aa7d53c3dd1d6c5541e9d6c2878e40b535d69f306f"
+      url "https://github.com/muxx/redmine-cli/releases/download/v0.2.0/redmine_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "c65c805370048d49b8644016edca44ae49920607f34c47e9215278cd298ce850"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/muxx/redmine-cli/releases/download/v0.1.0/redmine_v0.1.0_linux_arm64.tar.gz"
-      sha256 "5fb6e00a3332b0530309d855beea61be78b0933a606d5218aceb268ae76ab67d"
+      url "https://github.com/muxx/redmine-cli/releases/download/v0.2.0/redmine_v0.2.0_linux_arm64.tar.gz"
+      sha256 "9cad0b2136b98e856340de6f4274ea7135398c31a0508f122ed7fb0bd769b4a6"
     end
 
     on_intel do
-      url "https://github.com/muxx/redmine-cli/releases/download/v0.1.0/redmine_v0.1.0_linux_amd64.tar.gz"
-      sha256 "c6aac2417f9feaaec58ed3f31c612ef530c7be132d641b830c609539867b3b9c"
+      url "https://github.com/muxx/redmine-cli/releases/download/v0.2.0/redmine_v0.2.0_linux_amd64.tar.gz"
+      sha256 "9ed27e9e0be001a11276400037e1d928a6b74bcdf8f060d2a9332eb4bc1ac101"
     end
   end
 
